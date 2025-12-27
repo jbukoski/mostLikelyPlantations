@@ -1,0 +1,27 @@
+{
+    "id": "8D57DB59",
+    "path": "~/Library/CloudStorage/Box-Box/Manuscripts/bukoski_plantations/scripts/02_get_GEE_covars.R",
+    "project_path": "scripts/02_get_GEE_covars.R",
+    "type": "r_source",
+    "hash": "1711697898",
+    "contents": "",
+    "dirty": false,
+    "created": 1766789385326.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "17,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1766809506,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1766809506473,
+    "read_only": false,
+    "read_only_alternatives": []
+}
