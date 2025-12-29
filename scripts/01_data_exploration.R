@@ -246,8 +246,16 @@ sampled_values <- image$sampleRegions(
   tileScale = 4  # Increase if you get memory errors
 )
 
-# Convert back to R sf object
-result_sf <- ee_as_sf(sampled_values)
+# Export to Drive instead of downloading directly
+task <- ee_table_to_drive(
+  collection = sampled_values,
+  description = "plantation_samples",
+  folder = "wri_plantations",
+  fileFormat = "GPKG"
+)
+
+task$start()
+ee_monitoring(task)
 
 # View results
 View(result_sf)
